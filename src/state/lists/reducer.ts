@@ -43,7 +43,7 @@ const initialState: ListsState = {
       pendingUpdate: null
     }
   },
-  selectedListUrl: undefined
+  selectedListUrl: 'https://umaproject.org/uma.tokenlist.json'
 }
 
 export default createReducer(initialState, builder =>
