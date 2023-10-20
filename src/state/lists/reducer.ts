@@ -43,7 +43,7 @@ const initialState: ListsState = {
       pendingUpdate: null
     }
   },
-  selectedListUrl: 'https://umaproject.org/uma.tokenlist.json'
+  selectedListUrl: 'https://raw.githubusercontent.com/blueOMG/mantletokenlist/main/token.json'
 }
 
 export default createReducer(initialState, builder =>
