@@ -41,7 +41,7 @@ const initialState: ListsState = {
       current: UNISWAP_DEFAULT_LIST,
       loadingRequestId: null,
       pendingUpdate: null
-    }
+    } 
   },
   selectedListUrl: 'https://raw.githubusercontent.com/blueOMG/mantletokenlist/main/token.json'
 }
