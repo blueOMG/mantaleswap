@@ -43,7 +43,7 @@ const initialState: ListsState = {
       pendingUpdate: null
     } 
   },
-  selectedListUrl: 'https://raw.githubusercontent.com/blueOMG/mantletokenlist/main/token.json'
+  selectedListUrl: undefined
 }
 
 export default createReducer(initialState, builder =>
